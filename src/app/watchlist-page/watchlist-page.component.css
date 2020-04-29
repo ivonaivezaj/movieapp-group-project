@@ -1,0 +1,27 @@
+.clear-all {
+    right: 0;
+    position: absolute;
+    width: 79%;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.movie-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .movie-container {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .movie-item {
+        margin-top: 20px;
+    }
+}

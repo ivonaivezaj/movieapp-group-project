@@ -1,0 +1,58 @@
+.search {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+
+input, .genreFilter {
+    color: #ffffff;
+    background-color: crimson;
+    border: 1px solid crimson;
+    border-radius: 20px;
+    padding: 3%;
+    width: 92%;
+    font-size: 12px;
+    margin: 3px;
+}
+
+input {
+    max-width: 348px;
+}
+
+.genreFilter {
+    width: 354px;
+}
+
+input::placeholder {
+    opacity: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .search {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .movie-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    input {
+        width: 280px;
+        padding: 10px;
+    }
+
+    .genreFilter {
+        width: 280px;
+    }
+}
